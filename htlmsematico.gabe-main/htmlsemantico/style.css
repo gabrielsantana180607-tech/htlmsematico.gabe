@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.grupo {
+    display: flex;
+    flex-direction: column;
+}
+
+.cabecalho {
+    background-color: #1d633a;
+    color: rgb(101, 172, 92);
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu a {
+    color: rgb(240, 233, 233);
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+.menu a:hover {
+    color: rgb(40, 167, 89);
+    opacity: 0.7;
+}
+
+.conteudo {
+    display: flex;
+    
+}
+
+
+
+.navegacao {
+    background-color: #2d3d2c;
+    display: inline-block;
+    width: 30%;
+    padding: 20px;
+    color: #316634;
+}
+
+.navegacao ul {
+    list-style: none;
+    padding: 0;
+    color: #117222;
+}
+
+.navegacao li {
+        margin-bottom: 10px;
+}
+
+
+
+.secao {
+    background-color: #1d4e26;
+    display: inline-block;
+    width: 30%;
+    padding: 10px;
+    color: #2f8d56ce;
+}
+
+.secao p {
+    margin-bottom: 10px;
+}
+
+
+
+
+
+.rodape {
+    background-color: #083a1cc2;
+    height: 65px;
+    padding: 0 20px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+color: #77cc76;
+}
+.redes {
+    display: flex;
+    align-items: center;
+   
+}
+
+.redes img{
+    margin-left: 10px;
+    width: 20px;
+    height: 20px;
+}
+
+.redes a{
+    display: flex;
+    color: #e5f0e7;
+    align-items: center;
+    gap: 5px;
+    text-decoration: none;
+}
+.redes a:hover{
+    color: #459e55;
+    opacity: 0.7;
+}
